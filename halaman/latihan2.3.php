@@ -1,5 +1,4 @@
 <?php
-	error_reporting(0);
 	//Variabel Global
 	$x = 4;
 	$y = 6;
