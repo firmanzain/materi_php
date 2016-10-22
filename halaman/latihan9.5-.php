@@ -3,6 +3,7 @@
 &lt;?php
 	if ($_SERVER["REQUEST_METHOD"] == "GET") {
 		if ($_GET['subject']!=NULL) {
+			//Menggunakan $_GET Variabel
 			echo "Belajar ".$_GET['subject']." di ".$_GET['place'];	
 		}
 	}
