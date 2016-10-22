@@ -343,8 +343,55 @@
             <li>$_REQUEST </li>
             <li>$_POST </li>
             <li>$_GET </li>
-            <li>Operator String </li>
+            <li>$_FILES </li>
+            <li>$_COOKIE </li>
+            <li>$_SESSION </li>
           </ul>
+          <h2>$GLOBALS</h2>
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h4>Kode</h4>
+              <?php include_once('halaman/latihan9.1-.php');?>
+              <h4>Hasil</h4>
+              <?php include_once('halaman/latihan9.1.php');?>
+            </div>
+          </div>
+          <h2>$_SERVER</h2>
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h4>Kode</h4>
+              <?php include_once('halaman/latihan9.2-.php');?>
+              <h4>Hasil</h4>
+              <?php include_once('halaman/latihan9.2.php');?>
+            </div>
+          </div>
+          <h2>$_REQUEST</h2>
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h4>Kode</h4>
+              <?php include_once('halaman/latihan9.3-.php');?>
+              <h4>Hasil</h4>
+              <?php include_once('halaman/latihan9.3.php');?>
+            </div>
+          </div>
+          <h2>$_POST</h2>
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h4>Kode</h4>
+              <?php include_once('halaman/latihan9.4-.php');?>
+              <h4>Hasil</h4>
+              <?php include_once('halaman/latihan9.4.php');?>
+            </div>
+          </div>
+          <h2>$_GET</h2>
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h4>Kode</h4>
+              <?php include_once('halaman/latihan9.5-.php');?>
+              <h4>Hasil</h4>
+              <?php include_once('halaman/latihan9.5.php');?>
+            </div>
+          </div>
         </div>
 
       </div>
