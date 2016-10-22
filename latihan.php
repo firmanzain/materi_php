@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Latihan PHP</title>
+    <title>Belajar PHP</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <script type="text/javascript" src="code-prettify/src/run_prettify.js?skin=sons-of-obsidian"></script>
   </head>
@@ -24,6 +24,9 @@
         </li>
         <li role="presentation">
           <a href="#3" aria-controls="3" role="tab" data-toggle="tab">Konstanta</a>
+        </li>
+        <li role="presentation">
+          <a href="#4" aria-controls="4" role="tab" data-toggle="tab">Operator</a>
         </li>
       </ul>
 
@@ -88,6 +91,46 @@
               <?php include_once('halaman/latihan3.2-.php');?>
               <h4>Hasil</h4>
               <?php include_once('halaman/latihan3.2.php');?>
+            </div>
+          </div>
+          <h2>Konstanta bersifat Global</h2>
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h4>Kode</h4>
+              <?php include_once('halaman/latihan3.3-.php');?>
+              <h4>Hasil</h4>
+              <?php include_once('halaman/latihan3.3.php');?>
+            </div>
+          </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="4">
+          <h2>Operator PHP</h2>
+          <ul>
+            <li>Operator Arithmetic </li>
+            <li>Operator Assignment </li>
+            <li>Operator Comparison </li>
+            <li>Operator Increment/Decrement </li>
+            <li>Operator Logical </li>
+            <li>Operator String </li>
+            <li>Operator Array </li>
+          </ul>
+          <h2>Operator Arithmetic</h2>
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h4>Kode</h4>
+              <?php include_once('halaman/latihan4.1-.php');?>
+              <h4>Hasil</h4>
+              <?php include_once('halaman/latihan4.1.php');?>
+            </div>
+          </div>
+          <h2>Operator Assignment</h2>
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <h4>Kode</h4>
+              <?php include_once('halaman/latihan4.2-.php');?>
+              <h4>Hasil</h4>
+              <?php include_once('halaman/latihan4.2.php');?>
             </div>
           </div>
         </div>
